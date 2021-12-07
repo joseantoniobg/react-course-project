@@ -1,0 +1,48 @@
+.main-div {
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 2rem 1rem;
+  align-items: flex-start;
+  border-radius: 1rem;
+}
+
+.question {
+  font-size: 1.5rem;
+  position: absolute;
+  top: -3.2rem;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.alternative {
+  margin: 0.5rem 4rem;
+  font-size: 1rem;
+  font-family: monospace;
+}
+
+.score {
+  font-size: 3rem;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(42, 68, 153);
+  color: white;
+  font-weight: bold;
+  font-size: 0.7rem;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  transition: all 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(12, 26, 70);
+  transform: translate(-3px, -3px);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
